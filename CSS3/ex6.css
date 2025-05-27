@@ -1,0 +1,21 @@
+a:link {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+a:visited {
+    color: purple;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 5px 10px;
+}

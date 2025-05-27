@@ -1,0 +1,29 @@
+/* Debugging Styles */
+* {
+    outline: 1px solid red; /* Helps visualize element boundaries */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Responsive Debugging */
+@media (max-width: 768px) {
+    body {
+        background-color: #f4f4f4;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* Visibility Testing */
+.hidden {
+    visibility: hidden; /* Element still takes up space */
+}
+
+.none {
+    display: none; /* Element removed from layout */
+}

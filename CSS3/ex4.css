@@ -1,0 +1,9 @@
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-color: #e0e0e0; /* Fallback color */
+}
+
+/* Gradient background */
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
