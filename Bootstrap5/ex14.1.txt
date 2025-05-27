@@ -1,0 +1,6 @@
+<div class="d-none d-md-block bg-light p-3">
+  <p>Visible on md and up</p>
+</div>
+<div class="d-lg-flex d-none p-3 bg-success text-white">
+  <p>Flex only on large screens and up</p>
+</div>

@@ -1,0 +1,4 @@
+<div class="container mt-4">
+  <div class="bg-info text-white m-3 p-2">Box with margin-3 and padding-2</div>
+  <div class="bg-secondary text-white mt-4 py-5">Box with mt-4 and py-5</div>
+</div>

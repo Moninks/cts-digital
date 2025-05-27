@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <button class="btn btn-warning" data-bs-toggle="tooltip" title="Tooltip example">
+      Hover me
+    </button>
+  </div>
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Initialize tooltip
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el));
+  </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debugging Test</title>
+    <style>
+        /* Debugging border */
+        * {
+            outline: 1px solid red; /* Helps identify boundaries */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: lightblue;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Debugging with Chrome DevTools</h1>
+        <div class="box" onclick="console.log('Box Clicked!')">Click Me</div>
+    </div>
+
+    <script>
+        console.log("Page Loaded"); // Check if script runs
+
+        let testValue = 5;
+        console.log("Test Value:", testValue); // Debug variable
+
+        // Add a breakpoint manually in Chrome DevTools Sources tab
+        document.querySelector(".box").addEventListener("click", function() {
+            debugger; // Will pause execution when clicked
+        });
+    </script>
+</body>
+</html>

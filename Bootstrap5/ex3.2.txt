@@ -1,0 +1,7 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4 bg-success text-white p-2">Left</div>
+    <div class="col-sm-4 bg-warning p-2">Center</div>
+    <div class="col-sm-4 bg-danger text-white p-2">Right</div>
+  </div>
+</div>

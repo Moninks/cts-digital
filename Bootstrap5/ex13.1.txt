@@ -1,0 +1,4 @@
+<div class="container mt-5">
+  <div class="p-3 mb-2 bg-primary text-white">Primary Section</div>
+  <div class="p-3 mb-2 bg-warning text-dark">Warning Section</div>
+</div>

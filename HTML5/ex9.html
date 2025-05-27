@@ -1,0 +1,11 @@
+<button onclick="getLocation()">Find Nearby Events</button>
+<p id="geoOutput"></p>
+
+<script>
+function getLocation() {
+    navigator.geolocation.getCurrentPosition(
+        (position) => document.getElementById('geoOutput').innerText = `Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`,
+        () => alert("Geolocation failed")
+    );
+}
+</script>

@@ -1,0 +1,15 @@
+<select id="eventType" onchange="savePreference()">
+    <option>Concert</option>
+    <option>Workshop</option>
+</select>
+<button onclick="clearPreferences()">Clear Preferences</button>
+
+<script>
+function savePreference() {
+    localStorage.setItem('eventType', document.getElementById('eventType').value);
+}
+
+function clearPreferences() {
+    localStorage.clear();
+}
+</script>

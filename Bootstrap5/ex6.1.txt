@@ -1,0 +1,6 @@
+<nav class="d-flex flex-column flex-md-row bg-dark text-white p-3 justify-content-between">
+  <div class="mb-2 mb-md-0">Brand</div>
+  <div>Home</div>
+  <div>About</div>
+  <div>Contact</div>
+</nav>

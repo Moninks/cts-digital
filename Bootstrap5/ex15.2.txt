@@ -1,0 +1,5 @@
+<div class="card shadow shadow-lg p-3 mb-5 rounded-pill">
+  <div class="card-body text-center">
+    Shadowed Pill Card
+  </div>
+</div>

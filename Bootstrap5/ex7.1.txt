@@ -1,0 +1,6 @@
+<div class="container mt-5">
+  <h1 class="display-1">Display 1</h1>
+  <p class="lead">Lead text</p>
+  <p class="text-muted">Muted description</p>
+  <p class="fw-bold">Bold text</p>
+</div>

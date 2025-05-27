@@ -1,0 +1,17 @@
+<!-- No live HTML is needed. Here's a typical Bootstrap folder structure -->
+
+bootstrap/
+├── css/
+│   ├── bootstrap.min.css        ← Main CSS file
+│   └── bootstrap.min.css.map    ← Source map for debugging
+├── js/
+│   ├── bootstrap.bundle.min.js  ← Bootstrap + Popper.js in one file
+│   └── bootstrap.bundle.min.js.map
+└── icons/
+    └── bootstrap-icons.css      ← Optional icons (if downloaded separately)
+
+<!-- Explanation:
+  - css/: Stylesheets
+  - js/: JavaScript plugins
+  - icons/: Bootstrap Icons (separate download)
+-->

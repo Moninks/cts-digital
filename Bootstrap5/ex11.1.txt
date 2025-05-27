@@ -1,0 +1,7 @@
+<div class="card mt-5" style="width: 18rem;">
+  <img src="https://via.placeholder.com/150" class="card-img-top" alt="Profile">
+  <div class="card-body">
+    <h5 class="card-title">John Doe</h5>
+    <p class="card-text">A simple profile card using Bootstrap classes.</p>
+  </div>
+</div>

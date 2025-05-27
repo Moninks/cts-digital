@@ -1,0 +1,4 @@
+<div class="p-5 bg-dark bg-gradient text-white">
+  <h2>Gradient Background</h2>
+  <p>This section has a dark gradient background.</p>
+</div>

@@ -1,0 +1,21 @@
+<input type="tel" id="phoneField" placeholder="Enter phone number" onblur="validatePhone()">
+<select id="eventDropdown" onchange="showFee()">
+    <option>Music Concert</option>
+    <option>Sports Tournament</option>
+</select>
+<button onclick="alert('Form Submitted!')">Submit</button>
+<img src="event.jpg" ondblclick="enlargeImage()" width="100">
+
+<script>
+function validatePhone() {
+    alert("Phone number validated!");
+}
+
+function showFee() {
+    alert("Event fee: $50");
+}
+
+function enlargeImage() {
+    document.querySelector("img").style.width = "200px";
+}
+</script>

@@ -1,0 +1,4 @@
+$primary: #ff6600;
+$border-radius: 2rem;
+
+@import "bootstrap/scss/bootstrap";
